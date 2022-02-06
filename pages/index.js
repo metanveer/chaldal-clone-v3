@@ -1,4 +1,4 @@
-import Hero from "../components/home-page/Hero";
+import Hero from "../components/home-page/hero";
 import OrderCarousel from "../components/home-page/order-carousel";
 import OfferBanner from "../components/home-page/offer-banner";
 import ProductCategories from "../components/home-page/product-categories";

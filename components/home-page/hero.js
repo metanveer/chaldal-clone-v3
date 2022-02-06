@@ -2,7 +2,7 @@ import React from "react";
 import SearchBox from "../common/search-box";
 import css from "./hero.module.css";
 
-function Hero() {
+function hero() {
   return (
     <header className={css.homeTopBanner}>
       <span className={css.homeBannerText}>Groceries delivered in 1 hour</span>
@@ -11,4 +11,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default hero;
