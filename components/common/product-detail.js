@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/Ai";
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addItemToCart,
