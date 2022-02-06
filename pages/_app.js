@@ -35,7 +35,6 @@ class MyApp extends App {
         if (session) {
           const { data } = await axios({
             method: "get",
-            // url: "http://localhost:3000/api/cart",
             url: `${process.env.NEXT_PUBLIC_APP_URL}/api/cart`,
             headers: ctx.req ? { cookie: ctx.req.headers.cookie } : undefined,
           });
