@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  width: 700px;
+}
+
+.image {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1.5s ease;
+  max-width: 700px;
+}
+.imageActive {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1.5s ease;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 350px;
+  }
+
+  .image {
+    max-width: 350px;
+  }
+}

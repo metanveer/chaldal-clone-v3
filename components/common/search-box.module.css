@@ -1,0 +1,77 @@
+.searchBox {
+  border-radius: 3px;
+  padding: 0 0 0 12px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0 12px;
+  display: flex;
+  align-items: center;
+}
+.searchInput {
+  border: none;
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  flex: 1 1 50px;
+  font-family: inherit;
+  outline: none;
+  position: relative;
+}
+
+.searchInput::placeholder {
+  color: #7d7d7d;
+}
+
+.atBanner {
+  font-size: 17px;
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.atBanner::placeholder {
+  color: #757575;
+}
+
+.searchButton {
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding: 3px;
+  outline: none;
+  background-color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #7a7a7a;
+}
+
+.btnAtBanner {
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 0 6px 6px 0;
+}
+
+.searchBoxBanner {
+  border-radius: 6px;
+  padding: 0 0 0 12px;
+  height: 40px;
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border: 1px solid #c8c8c8;
+}
+
+@media (max-width: 768px) {
+  .searchBoxBanner {
+    width: 80%;
+  }
+}

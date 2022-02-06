@@ -1,0 +1,83 @@
+.carousel {
+  width: 100%;
+  position: relative;
+  /* background-color: var(--navbar-menu-btn-hover); */
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  z-index: 85;
+}
+
+.btn {
+  background-color: #ee4054;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  color: white;
+  width: 45px;
+  height: 100px;
+  font-size: 40px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    background: none;
+    color: #ee4054;
+  }
+  .btn:hover {
+    background-color: unset;
+  }
+}
+
+.btnPrev {
+  left: -5px;
+  border-radius: 0 50% 50% 0;
+}
+.btnNext {
+  right: -5px;
+  border-radius: 50% 0 0 50%;
+}
+
+.visible {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  /* margin-left: -405px; */
+  /* margin-left: calc(-770px / 2); */
+  z-index: -3;
+  /* background-color: aqua; */
+}
+
+/* .cardsPre {
+  background-color: rgb(222, 135, 196);
+  width: calc(7 * 270px);
+  position: absolute;
+  top: 0;
+  transition: left 0.5s ease;
+} */
+.cards {
+  /* background-color: burlywood; */
+  position: absolute;
+  top: 0;
+  transition: left 0.5s ease;
+}
+
+.card {
+  display: inline-block;
+  /* margin: 5px; */
+}

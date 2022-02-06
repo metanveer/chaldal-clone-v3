@@ -1,0 +1,34 @@
+.homeTopBanner {
+  background: url(/home-banners/landingBannerTop.jpg) no-repeat center;
+  background-size: cover;
+  height: 325px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBannerText {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .homeBannerText {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .homeBannerText {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 450px) {
+  .homeBannerText {
+    font-size: 1.4rem;
+  }
+}

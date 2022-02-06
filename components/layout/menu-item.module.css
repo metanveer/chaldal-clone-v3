@@ -1,0 +1,45 @@
+.child {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 5px 0;
+  margin: 0 0 0px 10px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .child {
+    padding: 8px 0;
+  }
+}
+
+.child:hover {
+  cursor: pointer;
+  background: #e1e1e1;
+  background: linear-gradient(to right, #fff 0, #ccc 100%);
+}
+
+.rightArrow {
+  position: absolute;
+  right: 1px;
+  top: 3px;
+  font-size: 20px;
+}
+
+.iconPrimary {
+  width: 20px;
+  margin: -5px 10px 0px 0;
+}
+
+.name {
+  font-weight: 400;
+}
+
+.active {
+  font-weight: 700;
+  color: #d39b11;
+}
+
+.highlighted {
+  background-color: #fdd670;
+}
